@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 import { PieChart, Pie, Cell, Tooltip, Legend, ResponsiveContainer } from "recharts";
 import { MonthlySale } from "@/types/sales";
 
@@ -12,7 +12,7 @@ export default function SalesPieChart({ data }: { data: MonthlySale[] }) {
         <Pie data={data} dataKey="revenue" nameKey="month" cx="50%" cy="50%" outerRadius={100} label>
           {data.map((_, i) => <Cell key={i} fill={COLORS[i % COLORS.length]} />)}
         </Pie>
-        <Tooltip formatter={(v: number) => `$${v.toLocaleString()}`} />
+        <Tooltip formatter={(v) => `$${Number(v).toLocaleString()}`} />
         <Legend />
       </PieChart>
     </ResponsiveContainer>
