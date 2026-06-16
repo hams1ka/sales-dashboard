@@ -18,7 +18,6 @@ export default function DashboardPage() {
         <Badge label="Superstore Dataset" color="purple" />
       </div>
 
-      {/* Year Selector */}
       <div className="flex gap-2 mb-6">
         {years.map((y) => (
           <button
