@@ -1,7 +1,7 @@
 # 📈 SalesScope — Next.js Sales Dashboard
 
 A sales analytics dashboard built with **Next.js 15**, **TypeScript**, **Tailwind CSS**, and **Recharts**.
-Visualizes Superstore sales data (2022–2024) with interactive chart types and custom filters.
+Visualizes Superstore sales data (2022–2024) with interactive chart types and custom filters
 
 ## ✨ Features
 
